@@ -1,0 +1,409 @@
+.contiiner{width: 1170px;margin: auto;
+}
+	.contiinera{width: 1300px; margin: auto;}
+
+
+/* start header */
+.header .slaider{
+	background-image: url("../phtos/woh.jpg");
+	background-size: cover;
+		-webkit-background-size: cover;
+	        -moz-background-size: cover;
+	          -o-background-size: cover;
+	height: 600px;
+}
+.header .slaider .intro{
+	color:#fff;
+	padding-top: 250px;
+	font-size: 20px;
+}
+.header .slaider .intro h2 {font-size: 40px}
+.header .navbar{
+	background-color:#252F31;
+	color: #FFF;
+}
+.header .navbar h2 span {
+	color: #2ecc71;
+}
+.header .navbar ul{
+	list-style: none;
+	padding-left: 0;
+}
+.header .navbar li{
+	padding: 10px;
+}
+.header .navbar ul li a{color: #fff;
+	text-decoration: none;
+}
+.header .navbar ul li a:hover{
+	color: #2ecc71;
+	text-decoration: underline;
+}
+/* end header */
+/* Start fut */
+
+.fut{
+	padding-top: 30px;
+   overflow: hidden;
+}
+.fut .feat {
+	width: 33.33333%;
+	height: auto;
+}
+
+.fut .feat h2{
+
+}
+.fut .feat p {
+	color: #888;
+		margin-right: 30px;
+} 
+
+
+/* start fut */
+/*
+.fut{
+	height: auto;
+		padding-top: 30px;
+overflow: hidden;
+	
+}
+.fut .val , .gol, .hop{
+		width: 33.33333%;
+	float: left;
+	height: auto;
+}
+*/
+/* end fut */
+/* Start about */
+.About-me{
+	background-color: rgba(0, 0, 0, 0.05);
+	margin-top: 50px;
+}
+.About-me .image img{
+	width: 100%;
+}
+.About-me .info 
+{width: 100%;
+}
+.About-me h2{
+	margin: 40px 0 20px 40px;
+}
+.About-me .info > p{
+	margin: 0 0 10px 40px;
+}
+.About-me .info > p:last-of-type{
+	margin: 30px 0 10px 40px;
+}
+.About-me .up {
+	margin: 30px 0 20px 40px;
+}
+.About-me .info .up > div{
+	width: 50%;
+	min-height: 100px;
+}
+.About-me .up > div > h3{
+	/*color: #555;*/
+}
+.About-me .up > div > p{
+	margin-right: 10px;
+	margin-top: 30px;
+}
+/* End about me */
+/* Start my skills */
+.my-skills{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.my-skills .Ahmed, .prog{
+	width: 50%;
+}
+.my-skills .Ahmed > h2{
+	/*color: #555; */
+}
+.my-skills .Ahmed > h2 span{
+	color:orange;
+}
+.my-skills .Ahmed button{
+	background: none;
+	border: 3px solid #2DCC70;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.my-skills .prog .level {
+	margin-top: 30px;
+	margin-left: 70px;
+}
+.my-skills .prog .level h3{
+	/*color: #555;*/
+	text-align: center;
+}
+.my-skills .prog .level .leav {
+	height: 25px;
+	background-color: #f2f2f2;
+}
+.my-skills .prog .level .leav span {
+	text-align: right;
+	background-color: rgba(255, 165, 0, 0.93);
+	display: block;
+	height: 25px;
+	color: white;
+	line-height: 25px;
+	
+}
+/* end my skills */
+/* start resume */
+.resume{
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	background-color: #f2f2f2;
+}
+.resume h2{ /*color: #555;*/}
+.resume p
+{margin-bottom: 40px;
+	font-weight: bold;}
+.resume button {
+	background: none;
+	border: 3px solid #2DCC70;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+/* end resume */ 
+/* Start my educat */
+.educat{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.educat .myeducat{margin-right: 3%;width: 50%;
+}
+.educat .myeducat > p{
+	padding-right: 20px;
+	color: #555;
+}
+ .educat .myeducatt{
+	 width: 47%;
+}
+.educat .myeducatt  {
+	margin-top: 47px;
+}
+.educat .myeducatt > h3{
+	/*color: #555;*/
+}
+.educat .myeducatt > p{
+	color: #555;
+}
+.educat .myeducatt > button {
+	background: #2DCC70;;
+	border: 3px solid #2DCC70;
+	color: white;
+	border-radius: 5px
+}
+.educat .myeducatt hr {
+	background-color: #999;
+	height: 1px;
+	border: 0;
+	margin: 25px 0 25px 0;
+}
+/* end my educat */ 
+/* start my work exp */
+.workexp{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.workexp .work{
+	width: 50%;margin-right: 3%;
+}
+.workexp .workup{
+	width: 47%;
+}
+ .workexp .work {
+	 margin-top: 47px;
+}
+ .workexp .work > p {
+	padding-right: 20px;
+	color: #555;
+}
+.workexp .workup {
+	margin-top: 47px;
+}
+.workexp .workup > h3{
+	margin-top: 65px;
+}
+.workexp .workup > p{
+	padding-right: 20px;
+	color: #555;
+}
+.workexp .workup > button {
+	background: #2DCC70;;
+	border: 3px solid #2DCC70;
+	color: white;
+}
+.workexp .workup hr {
+	background-color: #999;
+	margin: 25px 0 25px 0;}
+/* End my work exp */
+/* start prag */
+.prag{
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+	
+}
+
+.prag .textp > q{
+	line-height: 1.7;
+	color: #555;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	font-family:arial, tahoma;
+}
+.prag .textp > h2{margin-bottom: 30px;}
+.prag .textp ul{list-style: none;padding-left: 0;}
+.prag .textp ul li{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+    border: 1px solid #2DCC70;
+	border-radius: 10px;
+}
+.prag .textp ul .active{
+	background-color: #2DCC70;
+}
+.prag .textp ul li:hover{
+	cursor: pointer;
+	background-color: #2DCC70;}
+/* end prag */
+/* start my port */
+.myport{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.myport  h2{
+	margin-bottom: 30px;
+}
+.myport  p{
+	margin-bottom: 50px;
+}
+.myport .port{
+	margin-bottom: 10px;
+	display: inline;
+		width: 33.333333%;
+
+}
+.myport .port > div{
+	width: 33.333333%;
+ 
+}
+.myport .port >div img{
+	width: 92%;
+	margin: 10px;
+	padding: 3px;
+	background-color: #FFF;
+	border: 1px solid #ccc;
+	box-shadow: 10px 10px 10px #ccc;
+}
+.myport .port >div img:hover{border-radius: 5px;transform: scale(1.06);}
+
+/* end my port */
+/* Start contact me */
+.contact{
+	padding-top: 50px;
+	padding-bottom: 70px;	
+	background-color: #252f31;
+}
+.contact .info{width: 45%;}
+.contact .form{
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 40px;
+}
+.contact h2{color:#fff;margin-left: 40px;}
+.contact p{
+color: #6A6E71;
+margin-left: 40px;
+line-height: 1.7;
+}
+.contact .info p > span{
+	color: white;
+	font-size: 18px;
+	margin-right: 10px;
+}
+.contact .form label {
+	display: block;
+	color:white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.contact .form input[type="email"],
+.contact .form input[type="password"]{
+	background-color: #4B5557;
+	border: 0;
+	padding: 10px;
+	width: 90%;
+	color: #fff;
+	font-size: 20px;
+}
+.contact .form textarea{
+	background-color: #4B5557;
+	height:300px;
+	border: 0;
+	padding: 10px;
+	width: 90%;
+	color: #fff;
+	font-size: 15px;
+	overflow: auto;
+}
+.contact .form input[type="submit"]{
+background-color: #191E22;
+	margin-top: 20px;
+	padding: 20px;
+	border: 0;
+	color: #fff;
+	width: 20%;
+	border-radius: 5px;
+}
+/* End contact me */
+/* start footer */
+.footer{
+	background-color: rgba(37, 47, 49, 0.88);
+}
+.footer .foot{
+	padding-top: 30px;
+	padding-bottom: 30px;	
+}
+.footer .foot span{
+	color: snow;
+	font-size: 20px;
+}
+.footer .foot span > span{
+	color: #2ecc71;
+	font-size: 20px;
+	margin-left: 5px;
+	
+}
+.footer .foot ul{
+	list-style: none;
+	padding-left: 0;
+	margin:  0;
+	margin-bottom: 20px;
+}
+.footer .foot ul li{display: inline-block;}
+.footer .foot ul li{margin: 2px;}
+.footer .foot ul li img{width: 20px;}
+/* end footer */
+/* start fremwork */
+.fl-left{float: left;}
+.li-hi{line-height: 1.7;}
+.fl-ri{float: right;}
+.over-hi{overflow: hidden;}
+.text-trns{text-transform: capitalize;}
+.col{color: #666;} /* color for all p */
+.colh{color: #11ef6f;}
+.grcol{color:#2DCC70;}
+.tx-al{text-align: center;}
+.clear{clear: both;}
+/* end frem work */
